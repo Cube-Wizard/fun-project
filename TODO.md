@@ -1,10 +1,4 @@
 # Project requirements
-## Users can...
-3. Create instructions
-4. Share the product(s) of a project
-5. Share the instructions
-6. Search for projects
-## Project structure
 ## routes
 - [ ] login
   - [ ] GET
@@ -51,31 +45,13 @@
     1. remove user project in media folder by project-id
 - [ ] project
   - [ ] GET
-    ###### inputs: 
+    ###### inputs: IsLoggedIn
     1. direct user to create product? page
-- [ ] 
+- [ ] project/id
   - [ ] GET
-    ###### inputs: 
-    1. 
-  - [ ] POST
-    ###### inputs: 
-    1. 
-  - [ ] PUT
-    ###### inputs: 
-    1. 
-  - [ ] DELETE
-    ###### inputs: 
-    1. 
-- [ ] 
+    ###### inputs: projectId
+    1. direct user to that projects page
+- [ ] project?name=nameQuery
   - [ ] GET
-    ###### inputs: 
-    1. 
-  - [ ] POST
-    ###### inputs: 
-    1. 
-  - [ ] PUT
-    ###### inputs: 
-    1. 
-  - [ ] DELETE
-    ###### inputs: 
-    1. 
+    ###### inputs: nameQuery
+    1. direct user to query page with a list of matching products
