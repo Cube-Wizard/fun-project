@@ -55,3 +55,7 @@
   - [ ] GET
     ###### inputs: nameQuery
     1. direct user to query page with a list of matching products
+- [ ] project?parameter=userMadeParameter
+  - [ ] GET
+    ##### inputs: parameter
+    1. direct user to query page with a list of products matching parameters
