@@ -22,10 +22,10 @@
   - [ ] GET
     ###### inputs: isLoggedIn
     1. direct user to Account home page
-  - [] PUT
+  - [ ] PUT
     ###### inputs (first-name | last-name | email | newPassword) & email & password
     1. change values in database (first-name, last-name, email, hashword, modified-id) to appropriate values
-  - [] DELETE
+  - [ ] DELETE
     ###### inputs email & password
     1. redirect user to createAccount page
     2. remove user account from data base
